@@ -4,11 +4,25 @@
 /*----------------- Background Colours */
 
 .bg-color-title {
-    background-color: rgb(55, 70, 88);
+    background-color: #116466;
 }
 
 .navitem {
-    background-color: #C5C6C7;
+    background-color: rgb(133, 133, 133);
+}
+
+#intro {
+    background-color: rgb(133, 133, 133);
+}
+
+#introduction-section {
+    background-color: black;
+}
+
+#plasma-section {
+    padding-top: 50px;
+    padding-bottom:50px;
+    background: url("../images/cosmic.jpg") no-repeat fixed center;
 }
 
 
@@ -33,7 +47,9 @@
     margin:0px;
 }
 
-
+h1,h2,h3,h4,h5 {
+    margin:0;
+}
 /*----------------- Title Formatting */
 
 .header {
@@ -41,6 +57,8 @@
 }
 
 .title {
+    border:solid rgb(27, 65, 40) 10px;
+    
     font-family: 'Rubik', sans-serif;
     padding: 15px;
     color: white;
@@ -57,33 +75,33 @@
 }
 
 .navitem {
-    height:60px;
+    height:65px;
     text-align: center;
     padding:0;
-    border: solid grey 2px;
+    border: solid #2c7b7c 2px;
 }
 
 
 #nav {
     margin:0;
     padding:0;
+    background-color: red;
 }
 
 #nav li {
-    margin-bottom:10px;
-    padding-top:10px;
+    margin-bottom:0px;
+    padding-top: 7px;
 }
 
 .navitem a{
-    font-size:20px;
+    font-size:25px;
 }
 
 
 .navitem span {
     width: 100%;
-    padding-top: 5px;
-    padding-right:15px;
-    font-size:14px;
+    padding-right:18px;
+    font-size:15px;
     font-weight: 600;
     letter-spacing: 2px;
     font-family: 'Source Code Pro', sans-serif;
@@ -91,7 +109,30 @@
 }
 
 
+/*----------------- Introduction */
 
+#introduction-section {
+    padding: 10px 0px 10px 0px;
+}
+
+#intro {
+    border: solid #2c7b7c 5px;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*----------------- Plasma */
+
+
+/*----------------- Block-Diagram */
+.block-diagram {
+    text-align: center;
+}
+
+/*----------------- Interferences */
+
+/*----------------- Maintenance */
 
 
 /*----------------- Media Queries */
