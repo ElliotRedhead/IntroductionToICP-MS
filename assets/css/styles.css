@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/*----------------- Background Colours */
+
+.bg-color-title {
+    background-color: rgb(55, 70, 88);
+}
+
+.navitem {
+    background-color: #C5C6C7;
+}
+
+
+/*---------------- Special Formatting */
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.container-fluid {
+    padding:0px;
+    margin:0px;
+}
+
+.container-fluid row {
+    padding:0px;
+    margin:0px;
+}
+
+.container-fluid row col {
+    padding:0px;
+    margin:0px;
+}
+
+
+/*----------------- Title Formatting */
+
+.header {
+    margin:0;
+}
+
+.title {
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+    color: white;
+}
+
+
+/*----------------- Navigation Formatting */
+.navcontainer {
+    font-size:0;
+}
+
+.list-inline-item:not(:last-child) {
+    margin:0;
+}
+
+.navitem {
+    height:60px;
+    text-align: center;
+    padding:0;
+    border: solid grey 2px;
+}
+
+
+#nav {
+    margin:0;
+    padding:0;
+}
+
+#nav li {
+    margin-bottom:10px;
+    padding-top:10px;
+}
+
+.navitem a{
+    font-size:20px;
+}
+
+
+.navitem span {
+    width: 100%;
+    padding-top: 5px;
+    padding-right:15px;
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Source Code Pro', sans-serif;
+    color: white;
+}
+
+
+
+
+
+/*----------------- Media Queries */
