@@ -1,0 +1,20 @@
+What is it? 
+Example Industries: 
+Optimal lab conditions
+Value as a tool - sensitivity
+
+Inductively Coupled Plasma Mass Spectrometry (ICP-MS) is used in sample analysis to determine which elements are present and their concentrations.
+
+ICP-MS is applied in a variety of industries such as:
+- environmental
+- pharmaceutical
+- geochemical
+- forensics
+These may be for ensuring guidelines are adhered to in terms of purity of final products, sufficient treatment of waste product, or for exploration of biological matrices for example. 
+
+The greatest value provided by the instrument is the degree of sensitivity, with the ability to measure some elements at part-per-billion (ppb) level.
+This measurement is defined as being one part in one billion units, in relative terms that is equivalent to 1mL of water in a 1000L swimming pool or 1 second in 31.7 years.
+
+--------------------------
+
+The instrumentation performs most optimally in a clean-room environment at a non-fluctuating temperature due to its high degree of sensitivity.
