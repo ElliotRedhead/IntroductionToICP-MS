@@ -7,9 +7,7 @@
     background-color: #DCE3E3;
 }
 
-#introduction-section {
-    background-color: #55A3AF;
-}
+
 
 #plasma-section {
     padding-top: 50px;
@@ -43,6 +41,8 @@ h1,h2,h3,h4,h5 {
 
 #introduction-section {
     padding: 10px 0px 10px 0px;
+    border: solid #55A3AF;
+    border-width: 2px 0 2px 0;
 }
 
 #intro {
