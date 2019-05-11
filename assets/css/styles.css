@@ -32,21 +32,6 @@
     text-transform:uppercase;
 }
 
-.container-fluid {
-    padding:0px;
-    margin:0px;
-}
-
-.container-fluid row {
-    padding:0px;
-    margin:0px;
-}
-
-.container-fluid row col {
-    padding:0px;
-    margin:0px;
-}
-
 h1,h2,h3,h4,h5 {
     margin:0;
 }
@@ -66,47 +51,7 @@ h1,h2,h3,h4,h5 {
 
 
 /*----------------- Navigation Formatting */
-.navcontainer {
-    font-size:0;
-}
 
-.list-inline-item:not(:last-child) {
-    margin:0;
-}
-
-.navitem {
-    height:65px;
-    text-align: center;
-    padding:0;
-    border: solid #2c7b7c 2px;
-}
-
-
-#nav {
-    margin:0;
-    padding:0;
-    background-color: red;
-}
-
-#nav li {
-    margin-bottom:0px;
-    padding-top: 7px;
-}
-
-.navitem a{
-    font-size:25px;
-}
-
-
-.navitem span {
-    width: 100%;
-    padding-right:18px;
-    font-size:15px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    font-family: 'Source Code Pro', sans-serif;
-    color: white;
-}
 
 
 /*----------------- Introduction */
