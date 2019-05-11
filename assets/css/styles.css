@@ -41,13 +41,7 @@ h1,h2,h3,h4,h5 {
     margin:0;
 }
 
-.title {
-    border:solid rgb(27, 65, 40) 10px;
-    
-    font-family: 'Rubik', sans-serif;
-    padding: 15px;
-    color: white;
-}
+
 
 
 /*----------------- Navigation Formatting */
