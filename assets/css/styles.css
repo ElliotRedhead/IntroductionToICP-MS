@@ -9,11 +9,11 @@
 
 
 #intro {
-    background-color: rgb(133, 133, 133);
+    background-color: #B8BFB8;
 }
 
 #introduction-section {
-    background-color: black;
+    background-color: #55A3AF;
 }
 
 #plasma-section {
@@ -52,9 +52,8 @@ h1,h2,h3,h4,h5 {
 }
 
 #intro {
-    border: solid #2c7b7c 5px;
+    border: solid #3B5B66 2px;
     padding: 50px;
-    border-radius: 10px;
     font-family: 'Rubik', sans-serif;
 }
 
