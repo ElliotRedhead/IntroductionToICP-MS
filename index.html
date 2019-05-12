@@ -6,7 +6,7 @@
     <meta charset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link href="./assets/css/styles.css" rel="stylesheet" type="text/css">
@@ -20,40 +20,46 @@
             <div class="row bg-color-title">
                 <div class="col-sm-12">
                     <h1 class="title text-center">Inductively Coupled Plasma Mass Spectrometry (ICP-MS)</h1>
-                    <!-- Change to 'ICP-MS' on mobile with media query-->
                 </div>
             </div>
         </div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
-        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id ="navbarToggle">
-                    <ul class="navbar-nav m-auto">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button 
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse" 
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+            <div class="navbar-collapse collapse" id ="navbarCollapse">
+                    <ul class="navbar-nav m-auto text-uppercase">
                         <!--Change this nav to a 'burger' on mobile devices with media query & remove icons. Make the whole nav boxes clickable-->
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#introduction-section" class="uppercase"><span>Overview</span><i
                                     class="fas fa-info" aria-hidden=true></i></a>
                         </li>
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#plasma-section" class="uppercase"><span>Plasma</span><i class="fas fa-fire-alt"
                                     aria-hidden=true></i></a>
                         </li>
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#" class="uppercase"><span>Analysis</span><i class="fas fa-microscope"
                                     aria-hidden=true></i></a>
                         </li>
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#" class="uppercase"><span>Interferences</span><i class="fa fa-bolt"
                                     aria-hidden=true></i></a>
                         </li>
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#" class="uppercase"><span>Maintenance</span><i class="fa fa-wrench"
                                     aria-hidden=true></i></a>
                         </li>
-                        <li class="navitem">
+                        <li class="nav-item">
                             <a href="#" class="uppercase"><span>Resources</span><i class="fa fa-binoculars"
                                     aria-hidden=true></i></a>
                         </li>
@@ -140,6 +146,9 @@ This measurement is defined as being one part in one billion units, in relative 
 
 </body>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 
 </html>
