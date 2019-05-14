@@ -17,6 +17,14 @@
 h1,h2,h3,h4,h5 {
     margin:0;
 }
+
+section {
+    border: solid #55A3AF;
+    border-width: 2px 0 2px 0;
+    font-family: 'Rubik', sans-serif;
+    font-size:18px;
+}
+
 /*----------------- Title Formatting */
 
 #title-section {
@@ -39,18 +47,13 @@ a {
 
 /*----------------- Introduction */
 
-#introduction-section {
-    border: solid #55A3AF;
-    border-width: 2px 0 2px 0;
-    font-family: 'Rubik', sans-serif;
-    font-size:18px;
-}
 
 #introduction-section ul {
     margin-top:10px;
 }
 
 /*----------------- Plasma */
+
 
 
 /*----------------- Block-Diagram */
