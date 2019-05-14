@@ -19,12 +19,14 @@ h1,h2,h3,h4,h5 {
 }
 /*----------------- Title Formatting */
 
+#title-section {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
 .header {
     margin:0;
 }
-
-
-
 
 /*----------------- Navigation Formatting */
 
