@@ -22,6 +22,8 @@ h1,h2,h3,h4,h5 {
 #title-section {
     padding-top: 60px;
     padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-family: "Rubik", sans-serif;
 }
 
 .header {
@@ -39,11 +41,12 @@ a {
 #introduction-section {
     border: solid #55A3AF;
     border-width: 2px 0 2px 0;
+    font-family: 'Rubik', sans-serif;
+    font-size:30px;
 }
 
-#intro {
-    padding: 50px;
-    font-family: 'Rubik', sans-serif;
+#introduction-section ul {
+    margin-top:10px;
 }
 
 /*----------------- Plasma */
