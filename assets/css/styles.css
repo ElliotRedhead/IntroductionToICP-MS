@@ -18,11 +18,16 @@ h1,h2,h3,h4,h5 {
     margin:0;
 }
 
-section {
+.info-section {
     border: solid #55A3AF;
     border-width: 2px 0 2px 0;
     font-family: 'Rubik', sans-serif;
     font-size:18px;
+}
+
+.row {
+    padding-left:15px;
+    padding-right:15px;
 }
 
 /*----------------- Title Formatting */
