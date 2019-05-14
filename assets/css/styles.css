@@ -8,13 +8,6 @@
 }
 
 
-
-#plasma-section {
-    padding-top: 50px;
-    padding-bottom:50px;
-}
-
-
 /*---------------- Special Formatting */
 
 .uppercase {
@@ -40,7 +33,6 @@ h1,h2,h3,h4,h5 {
 /*----------------- Introduction */
 
 #introduction-section {
-    padding: 10px 0px 10px 0px;
     border: solid #55A3AF;
     border-width: 2px 0 2px 0;
 }
