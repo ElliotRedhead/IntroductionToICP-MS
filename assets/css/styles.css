@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 /*----------------- Background Colours */
+/*#dce3e3 #acd9ce #b8bfb8 #55a3af #3b5b66*/
 
 .bg-color-title {
     background-color: #DCE3E3;
@@ -38,6 +39,7 @@ h1,h2,h3,h4,h5 {
     letter-spacing: 1.5px;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
+    color: #3b5b66;
 }
 
 .header {
