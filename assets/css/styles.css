@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 
 /*----------------- Background Colours */
-/*#dce3e3 #acd9ce #b8bfb8 #55a3af #3b5b66*/
+/*#DCE3E3 #ACD9CE #B8BFB8 #55A3AF #3B5B66*/
 
 .bg-color-title {
     background-color: #DCE3E3;
+}
+
+.bg-color-footer {
+    background-color: #3B5B66;
 }
 
 
