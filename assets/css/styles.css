@@ -67,9 +67,15 @@ a {
     height:100%;
 }
 
+a:hover {
+    text-decoration:none;
+    background-color: red;
+}
+
 nav > div > ul > li {
     height:70px;
     height:100%;
+    text-decoration: clear;
 }
 /*----------------- Introduction */
 
