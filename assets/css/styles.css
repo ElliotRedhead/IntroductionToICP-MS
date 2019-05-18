@@ -67,6 +67,9 @@ a {
     display:block;
 }
 
+nav > div > ul > li {
+    height:50px;
+}
 /*----------------- Introduction */
 
 
