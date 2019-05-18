@@ -27,7 +27,8 @@ h1,h2,h3,h4,h5 {
     border: solid #55A3AF;
     border-width: 2px 0 2px 0;
     font-family: 'Rubik', sans-serif;
-    font-size:18px;
+    font-size: 18px;
+    min-height: 100vh;
 }
 
 .row {
