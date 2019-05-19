@@ -72,16 +72,7 @@ a {
     height:100%;
 }
 
-a {
-    text-decoration:none;
-}
-
-nav > div > ul > li > a:hover {
-    background-color:red;
-}
-
-
-nav > div > ul > li {
+nav > ul > li > a {
     height:70px;
     height:100%;
     text-decoration: none;
