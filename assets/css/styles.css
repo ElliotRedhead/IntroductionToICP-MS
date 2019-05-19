@@ -9,9 +9,16 @@
 }
 
 .bg-color-footer {
-    background-color: #3B5B66;
+    background-color: #55A3AF;
 }
 
+.bg-color-main {
+    background-color: #dce3e380;
+}
+
+.bg-color-nav {
+    background-color: #B8BFB8;
+}
 
 /*---------------- Special Formatting */
 
@@ -31,8 +38,20 @@ h1,h2,h3,h4,h5 {
     min-height: 100vh;
 }
 
+
+.container-fluid {
+    margin:0;
+    padding:0;
+}
+
 .row {
     margin: 0;
+    padding:0;
+}
+
+p {
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .sidebar {
@@ -49,6 +68,10 @@ body {
     position:relative;
 }
 
+img {
+    max-width:100%; 
+    height:auto;
+}
 
 /*----------------- Title Formatting */
 
@@ -90,10 +113,8 @@ nav > ul > li > a {
 
 
 
-/*----------------- Block-Diagram */
-.block-diagram {
-    text-align: center;
-}
+/*----------------- Analysis */
+
 
 /*----------------- Maintenance */
 
