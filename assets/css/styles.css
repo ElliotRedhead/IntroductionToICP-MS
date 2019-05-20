@@ -87,6 +87,9 @@ nav > ul > li > a {
     text-decoration: none;
 }
 
+.navigation > ul > li:hover {
+    background-color: #FF8811;
+}
 
 /*----------------- Main Body */
 
