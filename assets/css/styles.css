@@ -41,10 +41,6 @@ h1,h2,h3,h4,h5 {
     padding:0;
 }
 
-p {
-margin-top: 50px;
-margin-bottom: 50px;
-}
 
 body {
     position:relative;
@@ -137,4 +133,22 @@ img {
     border-color: #BBDEF0;
 }
 
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
+
+/*----------------- Media Queries */ 
+
+@media screen and (min-width: 768px) {
+    p {
+        margin-left: 40px;
+        margin-right: 40px;
+        }
+    
+    .info-section > .row > div > ul {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+  }
