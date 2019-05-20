@@ -45,12 +45,15 @@ h1,h2,h3,h4,h5 {
 .row {
     margin: 0;
     padding:0;
+    
 }
 
 
 body {
     position:relative;
 }
+
+
 
 
 /*----------------- Title */
@@ -144,6 +147,9 @@ p {
     margin-bottom: 40px;
 }
 
+#maintenance-section > .row {
+    min-height:100vh;
+}
 
 /*----------------- Media Queries */ 
 
