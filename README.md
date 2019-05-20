@@ -7,7 +7,9 @@ https://coolors.co/bbdef0-ff8811-247ba0-1b98e0-F8FBFB
 -------------------------
 Provide a print-friendly option/prompt or save as pdf?
 -------------------------
-Example README template
+Resource: https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf
+-------------------------
+#Example README template
 # Introduction to ICP-MS
 
  
