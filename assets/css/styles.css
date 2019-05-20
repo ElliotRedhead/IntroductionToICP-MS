@@ -77,18 +77,39 @@ body {
  box-shadow: inset -10px 0 0 rgba(0, 0, 0, .1);
 }
 
+.sidebar > ul > li > a {
+    height:100%;
+    text-decoration: none;
+    color: #799db1;
+}
+
+.sidebar > ul > li a:hover {
+    background-color: #FF8811;
+    color: #F8FBFB;
+}
+
 .card {
     width:100%;
     word-wrap:inherit;
     }
 
-nav > ul > li > a {
-    height:100%;
+.burger-nav > ul > li > a {
     text-decoration: none;
+    color: #FF8811;
+    font-size:20px;
 }
 
-.navigation > ul > li:hover {
-    background-color: #FF8811;
+.burger-nav > ul > li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.burger-nav > ul > li > .active {
+background-color:#FF8811;
+}
+
+.burger-nav > ul > li > .active span {
+    color: #F8FBFB;
 }
 
 /*----------------- Main Body */
