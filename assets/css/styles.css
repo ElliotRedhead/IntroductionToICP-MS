@@ -1,3 +1,5 @@
+/*---------------- Import Fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
@@ -52,8 +54,6 @@ h1,h2,h3,h4,h5 {
 body {
     position:relative;
 }
-
-
 
 
 /*----------------- Title */
@@ -153,6 +153,17 @@ p {
     min-height:100vh;
 }
 
+/*----------------- Footer */
+
+footer {
+    color:#F8FBFB;
+    font-family: 'Rubik', sans-serif;
+}
+
+#copyright {
+    font-size:14px;
+}
+
 /*----------------- Media Queries */ 
 
 /*MARGINS ADDED WHEN RESOLUTION IS INCREASED*/
@@ -165,5 +176,8 @@ p {
     .info-section > .row > div > ul {
         margin-left: 40px;
         margin-right: 40px;
+    }
+    #copyright {
+        margin-left: 50vw;
     }
   }
