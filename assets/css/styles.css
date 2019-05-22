@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5 {
     
 }
 
-
+/*OVERWRITING BOOTSTRAP CLASS DEFAULTS*/
 .container-fluid {
     margin:0;
     padding:0;
@@ -72,13 +72,14 @@ body {
 
 /*----------------- Navigation */
 
+/*SIDEBAR CONFIGURATION FOR LARGER RESOLUTIONS*/
 .sidebar {
     position: fixed;
  top: 0;
  bottom: 0;
  left: 0;
  padding:0;
- z-index: 1; /*On top of footer and content*/
+ z-index: 1; /*ON TOP OF FOOTER & CONTENT*/
  box-shadow: inset -10px 0 0 rgba(0, 0, 0, .1);
 }
 
@@ -98,6 +99,7 @@ body {
     word-wrap:inherit;
     }
 
+/*'BURGER' NAVIGATION CONFIGURATION FOR SMALLER RESOLUTIONS*/
 .burger-nav {
     height:100vh;
 }
@@ -121,7 +123,7 @@ background-color:#FF8811;
 
 /*----------------- Main Body */
 
-
+/*CONSISTENT STYLE ON INFORMATION SECTIONS*/
 .info-section {
     border: solid #BBDEF0;
     border-width: 2px 0 2px 0;
@@ -153,6 +155,7 @@ p {
 
 /*----------------- Media Queries */ 
 
+/*MARGINS ADDED WHEN RESOLUTION IS INCREASED*/
 @media screen and (min-width: 768px) {
     p {
         margin-left: 40px;
