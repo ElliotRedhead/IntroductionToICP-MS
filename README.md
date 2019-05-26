@@ -1,16 +1,7 @@
-# Introduction-to-ICP-MS
--------------------------
-This is my first milestone project, an introduction to inductively coupled plasma mass spectrometry. Designed to be an educational tool, it covers the basic principle of the technique, the instrumentation, its application and its limitations.
--------------------------
-Colour palette specified - https://coolors.co/dce3e3-acd9ce-b8bfb8-55a3af-3b5b66
-https://coolors.co/bbdef0-ff8811-247ba0-1b98e0-F8FBFB
--------------------------
-Resource: https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf
--------------------------
 # Introduction to Inductively Coupled Plasma Mass Spectrometry
 
 <div align="center">
-View the live deployment here: [GitHub Page](https://elliotredhead.github.io/Introduction-to-ICP-MS/)
+View the live deployment here: (https://elliotredhead.github.io/Introduction-to-ICP-MS/)
 </div>
 
 This page explores the basic principles of inductively coupled plasma spectrometry with the objective of 
