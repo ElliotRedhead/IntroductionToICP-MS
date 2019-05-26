@@ -7,36 +7,41 @@ https://coolors.co/bbdef0-ff8811-247ba0-1b98e0-F8FBFB
 -------------------------
 Resource: https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf
 -------------------------
-# Introduction to ICP-MS
+# Introduction to Inductively Coupled Plasma Mass Spectrometry
 
 <div align="center">
-[View the live deployment here:]https://elliotredhead.github.io/Introduction-to-ICP-MS/
+View the live deployment here: https://elliotredhead.github.io/Introduction-to-ICP-MS/
 </div>
- 
-## User Experience
- 
-This page explores the basic principles of inductively coupled plasma spectrometry.
-The website features a general introduction to the technique, with deeper description of how the different #
+
+This page explores the basic principles of inductively coupled plasma spectrometry with the objective of 
+providing educational information regarding the topic.
+The website features a general introduction to the technique, with deeper description of how the different 
 components come together to form the analysis. The overall application and value of the analysis is covered
 with examples of specific industries it is currently used in. The basics of the physical chemistry utilised 
 are introduced.
+ 
+## User Experience
+ 
+####The target audience for this website is: 
+* A science or science-related professional that is fluent in English.
+* Assumed to have a basic understanding of chemistry/science.
+* Potentially researching this method as a student or someone who is beginning a career in this field.
 
+####This project is the best way to deliver the content because:
+* The user is guided through the information in a logical manner, building upon the taught concepts.
+* The page provides all of the basic information but encourages further reading by not overloading the
+user with details.
+* It provides a platform to open a two-way conversation with the author, encouraging questions and feedback.
+* The content is easy to navigate with appropriately named sections, allowing focus on the information given.
 
-
-The target audience is a science or science-related professional that is fluent in English.
-The user is assumed to have a basic understanding of chemistry/science.
-The user is potentially researching this method as a student or someone who is beginning a career in this field.
-
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-##User Stories
+## User Stories
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
-As a user with no prior knowledge of this method I want to ... so that I can ... READ
-As a user with no prior knowledge of this method I want to ... so that I can ... READ
-As a user with no prior knowledge of this method I want to ... so that I can ... READ
+1. As a user with no prior knowledge of this method I want to scroll through the sections sequentially so that I can acquire a base knowledge of the procedure.
+2. As a user with some prior knowledge of this method I want to select a target section of information so that I can research more of that section in particular.
+3. As a returning user with extensive prior knowledge of this method I want to contact the author so that I can discuss the method further.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
@@ -44,34 +49,25 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
--Nav
--Intro
--Info Sections (Individually)
--Footer
- 
-## Existing Features
+### Existing Features
 
-#Navigation
-The navigation is fully responsive to different resolutions, allowing the user easy access to any of the secvtions of the page and highlighting the current sections they are using using Scrollspy.
+####Title
+The title is large and bold, assuring users that they have found the correct page for the information they are searching for, it also includes the acronym in case the user has only ever heard of the shortened version before.
+####Navigation
+The navigation method provided is fully responsive to different resolutions, allowing the user easy access to any of the sections of the page and highlighting the current sections they are reading using Scrollspy.
 The overview section gives a brief introduction to the instrument, its analysis and degree of sensitivity. A list was included for this section to highlight the industries that it is applicable to. This section uses a single column layout as is the standard for information websites.
-
-This section explains to the user what the role of the plasma is, an image is included to illustrate the physical chemistry concept that occurs upon analysis.
-
-The analysis section describes the role of the raminder of the instrument in the analysis. A block diagram is included to illustrate how each each part of the instrument interacts, and allows the user to place the concepts to their positions.
-
+####Overview
+The overview gives a brief introduction to the background of the method, showing how it is applicable in real-world practice. This section gives the reader relative comparisons to better understand the more abstract ideas and gives a brief overview of the main components of the instrument.
+####Ionisation
+This section explains to the user what the role of the plasma is, an image is included to help illustrate the physical chemistry concept that occurs upon analysis.
+####Analysis
+The analysis section describes the role of the remainder of the instrument in the analysis. A block diagram is included to illustrate how each each part of the instrument interacts, and allows the user to place the concepts to their positions.
+####Maintenance
 The maintenance section is used to discuss the potential drawbacks and cost of ther instrument's running to give the user an idea of logistical challenges that many occur in its use.
-
-The contact form allows the user to contact the author. Its presence invites questions and feedback, allowing both the user and creator to benefit from further discussion.
-
-The option to share the page is given within the footer, if the user has decided that the information provided was valuable to them and would like to share it the available options are for Facebook, Twitter and LinkedIn. These sites were chosen as the most suitable target platforms for information distribution from an educational viewpoint.
-
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+####Contact
+The contact form allows the user to contact the author. Its presence invites questions and feedback, allowing both the user and creator to benefit from further discussion. The user simply inputs their email address and message into the required fields before clicking the send button.
+####Share
+The option to share the page is given within the footer, if the user has decided that the information provided was valuable to them and would like to share it the available options are for Facebook, Twitter and LinkedIn. These sites were chosen as the most suitable target platforms for information distribution from an educational viewpoint. The user simply clicks the site icon they wish to share to and a new window is opened with the site link filled in the message box for them.
 
 ### Features Left to Implement
 - Another feature idea
@@ -112,15 +108,27 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed using Visual Studio Code, and was both committed to git and pushed to GitHub using the integrated source control feature.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+The setup for the GitHub Pages deployment was as follows:
+- Log into Github.
+- Select the target repository from the list.
+- Select "Settings" from the menu items.
+- Scroll to the Github Pages section.
+- Under "Source" click the drop-down that is set to "None" and select "Master Branch".
+- The link to the website is now displayed under the "Github Pages" section.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+##Clone the Project from GitHub:
 
+Open [the repository](https://github.com/ElliotRedhead/Introduction-to-ICP-MS) in GitHub
+Select the green "Clone or download" button.
+Copy the clone URL for this repository.
+In your local IDE open Git Bash.
+Navigate to where the cloned directory should reside, make this the current working directory.
+Type "git clone", and paste the clone URL.
+i.e. "git clone https://github.com/ElliotRedhead/Introduction-to-ICP-MS.git"
+Press Enter.
+The local clone is now created.
 
 ## Credits
 
