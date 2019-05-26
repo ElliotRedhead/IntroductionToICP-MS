@@ -2,25 +2,41 @@
 -------------------------
 This is my first milestone project, an introduction to inductively coupled plasma mass spectrometry. Designed to be an educational tool, it covers the basic principle of the technique, the instrumentation, its application and its limitations.
 -------------------------
-Colour palette specified with various types of colour blindness - https://coolors.co/dce3e3-acd9ce-b8bfb8-55a3af-3b5b66
+Colour palette specified - https://coolors.co/dce3e3-acd9ce-b8bfb8-55a3af-3b5b66
 https://coolors.co/bbdef0-ff8811-247ba0-1b98e0-F8FBFB
--------------------------
-Provide a print-friendly option/prompt or save as pdf?
 -------------------------
 Resource: https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf
 -------------------------
-#Example README template
 # Introduction to ICP-MS
 
+<div align="center">
+[View the live deployment here:]https://elliotredhead.github.io/Introduction-to-ICP-MS/
+</div>
  
 ## User Experience
  
+This page explores the basic principles of inductively coupled plasma spectrometry.
+The website features a general introduction to the technique, with deeper description of how the different #
+components come together to form the analysis. The overall application and value of the analysis is covered
+with examples of specific industries it is currently used in. The basics of the physical chemistry utilised 
+are introduced.
+
+
+
+The target audience is a science or science-related professional that is fluent in English.
+The user is assumed to have a basic understanding of chemistry/science.
+The user is potentially researching this method as a student or someone who is beginning a career in this field.
+
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-My website is aimed at people specifically searching to learn more about ICP-MS specifically and so assumes some background knowledge of science.
+##User Stories
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
+
+As a user with no prior knowledge of this method I want to ... so that I can ... READ
+As a user with no prior knowledge of this method I want to ... so that I can ... READ
+As a user with no prior knowledge of this method I want to ... so that I can ... READ
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
@@ -34,7 +50,22 @@ In this section, you should go over the different parts of your project, and des
 -Info Sections (Individually)
 -Footer
  
-### Existing Features
+## Existing Features
+
+#Navigation
+The navigation is fully responsive to different resolutions, allowing the user easy access to any of the secvtions of the page and highlighting the current sections they are using using Scrollspy.
+The overview section gives a brief introduction to the instrument, its analysis and degree of sensitivity. A list was included for this section to highlight the industries that it is applicable to. This section uses a single column layout as is the standard for information websites.
+
+This section explains to the user what the role of the plasma is, an image is included to illustrate the physical chemistry concept that occurs upon analysis.
+
+The analysis section describes the role of the raminder of the instrument in the analysis. A block diagram is included to illustrate how each each part of the instrument interacts, and allows the user to place the concepts to their positions.
+
+The maintenance section is used to discuss the potential drawbacks and cost of ther instrument's running to give the user an idea of logistical challenges that many occur in its use.
+
+The contact form allows the user to contact the author. Its presence invites questions and feedback, allowing both the user and creator to benefit from further discussion.
+
+The option to share the page is given within the footer, if the user has decided that the information provided was valuable to them and would like to share it the available options are for Facebook, Twitter and LinkedIn. These sites were chosen as the most suitable target platforms for information distribution from an educational viewpoint.
+
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
@@ -46,6 +77,12 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
+
+This project is developed with primarily HTML and CSS languages. These were chosen in order to fulfil the project requirements and are the languages that the developer has most experience in due to their suitability to website development.
+The developer used Visual Studio Code to create the website. This was chosen due to the developer having established experience within this software and for its Github integration. https://code.visualstudio.com/
+Bootstrap 4 is used extensively throughout the project. The main application of this was for its integration of the CSS Flexbox Grid system used throughout the layout of this website, with a secondary application of preset components used for suitability and developer ease-of-use. https://getbootstrap.com
+FontAwesome is used within this project to provide categorical icons as found in the mobile navigation section. htttps://fontawesome.com/
+GoogleFonts is used to supply the fonts for the majority of texts across this website, the fonts sourced in this way were Rubik and Roboto-Condensed. https://fonts.google.com/
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
