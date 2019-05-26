@@ -99,6 +99,21 @@ body {
     word-wrap:inherit;
     }
 
+#resources, #resources > div {
+    height:100%;
+    color: #799db1;
+    padding-top:10px;    
+}
+
+#resources > div > ul {
+    list-style-type: none;
+    padding:0;
+}
+
+#resources > div > ul > li > a {
+    text-decoration:none
+}
+
 /*'BURGER' NAVIGATION CONFIGURATION FOR SMALLER RESOLUTIONS*/
 .burger-nav {
     height:100vh;
