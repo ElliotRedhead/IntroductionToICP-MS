@@ -60,6 +60,8 @@ The option to share the page is given within the footer, if the user has decided
 
 ### Features Left to Implement
 * Language selection option: As automatic translation services will not accurately translate the scientific language used on this page it would be beneficial to have the page manually translated to widen the potential audience.
+* Functional contact form: The frontend of the contact form is in place but to make the form fully functional a backend solution is required, this will be learned further on in the Code Institute course.
+
 
 ## Technologies Used
 
@@ -73,23 +75,35 @@ The project uses [jQuery](https://jquery.com/) and [Popper.js](https://popper.js
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+1. Navigation (Larger Resolution)
+    1. Hover over any of the targets in the navigation sidebar and confirm that they glow orange upon hover.
+    2. Click a chosen section and confirm that the target section is automatically scrolled to and highlighted as the current section.
+    3. Repeat the above from any scrolled section of the page and confirm that the target section is scrolled to and highlighted as the current section.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
+2. Navigation (Smaller Resolution)
+    1. Select the burger navigation icon in the top left corner of the screen, confirm that a dropdown navigation appears.
+    2. Select a target section and confirm that this is highlighted as the current section.
+    3. Select the burger navigation icon to close the dropdown and reveal the selected section.
+    
+3. Contact Form
+    1. Go to the "Contact" section.
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+    4. Try to submit the form with all inputs valid and verify that the form sends successfully.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+4. Additional Resources
+    1. Click each of the links in the additional resources section.
+    2. Confirm that each leads to their respective website, in a new tab.
+    
+5. Share
+    1. Select each of the different social websites.
+    2. Confirm that each opens a share dialog in a new tab.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+The website has been opened and navigated across multiple devices and platforms, including Windows (Chrome), Linux (Chromium), Apple Mac (Safari), Apple iPhone (Safari) and Android Galaxy (Samsung Internet). Across all platforms the page loaded correctly and as was designed.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The single column text layout on larger resolutions has an inline image in the plasma-ionisation section. This is merged into the single-column format on smaller resolutions. Both images used in this website are responsive to the screen size as proven by multi-platform testing.
+
+Troubleshooting style issues was undertaken by inspecting the affected element and determining which style properties require altering to achieve the desired result.
 
 ## Deployment
 
@@ -117,12 +131,11 @@ The local clone is now created.
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+The photos used in this site were obtained from the following sources:
+1. http://chemistry-alevel.blogspot.com/2010/12/ionic-substances.html - Ionisation Energy Diagram
+2. https://www.researchgate.net/figure/Schematic-of-an-Inductively-Coupled-Plasma-Mass-Spectrometer-ICP-MS_fig5_44226526 - Instrument Block-Diagram
 
 ### Acknowledgements
 
-Support for this project from Simen Daehlin
+Many thanks for support in the creation of this website to my mentor Simen Daehlin and user centric frontend lead: Anna Greaves for their guidance and advice to the Code Institute community.
