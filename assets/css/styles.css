@@ -122,9 +122,9 @@ body {
 .burger-nav > ul > li > a {
     text-decoration: none;
     color: #FF8811;
-    font-size:20px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    font-size:25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .burger-nav > ul > li > .active {
@@ -168,6 +168,15 @@ p {
     min-height:100vh;
 }
 
+#additional-resources-list {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+#additional-resources-list > li {
+    text-align: center;
+}
+
 /*----------------- Footer */
 
 footer {
@@ -197,5 +206,8 @@ footer {
     }
     #share {
         margin-right:10px;
+    }
+    #additional-resources-section {
+        display: none
     }
   }
