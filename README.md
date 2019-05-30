@@ -1,8 +1,7 @@
 # Introduction to Inductively Coupled Plasma Mass Spectrometry
-
-<div align="center">
-View the live deployment here: (https://elliotredhead.github.io/Introduction-to-ICP-MS/)
-</div>
+=====
+View the live deployment [here](https://elliotredhead.github.io/Introduction-to-ICP-MS/)
+-----
 
 This page explores the basic principles of inductively coupled plasma spectrometry with the objective of 
 providing educational information regarding the topic.
@@ -34,7 +33,7 @@ user with details.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-- Include links to mock and revised wireframes.
+
 
 ## Features
 
@@ -65,13 +64,16 @@ The option to share the page is given within the footer, if the user has decided
 
 ## Technologies Used
 
-This project is developed with primarily HTML and CSS languages. These were chosen in order to fulfil the project requirements and are the languages that the developer has most experience in due to their suitability to website development.
-The developer used [Visual Studio Code](https://code.visualstudio.com/) to create the website. This was chosen due to the developer having established experience within this software and for its Github integration.
-[Bootstrap 4](https://getbootstrap.com) is used extensively throughout the project. The main application of this was for its integration of the CSS Flexbox Grid system used throughout the layout of this website. The Scrollspy was also sourced from Bootstrap, as were other preset components used for suitability and developer ease-of-use. 
-[FontAwesome](https://fontawesome.com/) is used within this project to provide categorical icons as found in the mobile navigation section. 
-[GoogleFonts](https://fonts.google.com/) is used to supply the fonts for the majority of texts across this website, the fonts sourced in this way were Rubik and Roboto-Condensed. 
-The project uses [jQuery](https://jquery.com/) and [Popper.js](https://popper.js.org/) to enable the Bootstrap responsive navbar.
-
+1. This project is developed with primarily HTML, due to it's suitability for website page development.
+2. The project style was customised further by use of CSS.
+3. Javascript is used to provide additional functions, this language was not written in by the developer but incorporated in tools that the developer utilises.
+4. The developer used [Visual Studio Code](https://code.visualstudio.com/) to create the website. This was chosen due to the developer having established experience within this software and for its Github integration.
+5. [Bootstrap](https://getbootstrap.com) is used extensively throughout the project. The main application of this was for its integration of the CSS Flexbox Grid system used throughout the layout of this website. The Scrollspy was also sourced from Bootstrap, as were other preset components used for suitability and developer ease-of-use.
+6. [Bootstrap Social Icons](https://lipis.github.io/bootstrap-social/) are used in the footer for icons to share the webpage to a few popular social media sites.
+7. [FontAwesome](https://fontawesome.com/) is used within this project to provide categorical icons as found in the mobile navigation section. 
+8. [GoogleFonts](https://fonts.google.com/) is used to supply the fonts for the majority of texts across this website, the fonts sourced in this way were Rubik and Roboto-Condensed. 
+9. The project uses [jQuery](https://jquery.com/) to enable the Bootstrap responsive navbar.
+10. The Project uses [Popper.js](https://popper.js.org/) to enable the Bootstrap responsive navbar.
 
 ## Testing
 
@@ -117,25 +119,25 @@ The setup for the GitHub Pages deployment was as follows:
 - Under "Source" click the drop-down that is set to "None" and select "Master Branch".
 - The link to the website is now displayed under the "Github Pages" section.
 
-## Clone the Project from GitHub:
+## Run this Project Locally:
 
-Open [the repository](https://github.com/ElliotRedhead/Introduction-to-ICP-MS) in GitHub
-Select the green "Clone or download" button.
-Copy the clone URL for this repository.
-In your local IDE open Git Bash.
-Navigate to where the cloned directory should reside, make this the current working directory.
-Type "git clone", and paste the clone URL.
+1. Open [the repository](https://github.com/ElliotRedhead/Introduction-to-ICP-MS) in GitHub
+2. Select the green "Clone or download" button.
+3. Copy the clone URL for this repository.
+4. In your local IDE open Git Bash.
+5. Navigate to where the cloned directory should reside, make this the current working directory.
+6. Type "git clone", and paste the clone URL.
 i.e. "git clone https://github.com/ElliotRedhead/Introduction-to-ICP-MS.git"
-Press Enter.
-The local clone is now created.
+7. Press Enter.
+8. The local clone is now created.
 
 ## Credits
 
 ### Media
 The photos used in this site were obtained from the following sources:
-1. http://chemistry-alevel.blogspot.com/2010/12/ionic-substances.html - Ionisation Energy Diagram
-2. https://www.researchgate.net/figure/Schematic-of-an-Inductively-Coupled-Plasma-Mass-Spectrometer-ICP-MS_fig5_44226526 - Instrument Block-Diagram
+1. [Diagram of Ionisiation Energy](http://chemistry-alevel.blogspot.com/2010/12/ionic-substances.html)
+2. [Block Diagram of ICP-MS Instrument](https://www.researchgate.net/figure/Schematic-of-an-Inductively-Coupled-Plasma-Mass-Spectrometer-ICP-MS_fig5_44226526)
 
 ### Acknowledgements
 
-Many thanks for support in the creation of this website to my mentor Simen Daehlin and user centric frontend lead: Anna Greaves for their guidance and advice to the Code Institute community.
+Many thanks for support in the creation of this website to my mentor [Simen Daehlin](https://github.com/eventyret) and user centric frontend lead: [Anna Greaves](https://github.com/AJGreaves) for their guidance and advice to the Code Institute community.
