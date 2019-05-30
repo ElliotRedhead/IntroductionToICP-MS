@@ -1,10 +1,9 @@
-/*---------------- Import Fonts */
+/* Import Fonts */
 
 @import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-/*----------------- Background Colours */
-/*#DCE3E3 #ACD9CE #B8BFB8 #55A3AF #3B5B66*/
+/* Background Colours */
 
 .bg-color-title {
     background-color: #F8FBFB;
@@ -15,14 +14,14 @@
 }
 
 .bg-color-main {
-    background-color: #dce3e380;
+    background-color: #f8f8f8b0;
 }
 
 .bg-color-nav {
     background-color: #f8fbfb;
 }
 
-/*---------------- Special Formatting */
+/* Special Formatting */
 
 .uppercase {
     text-transform:uppercase;
@@ -38,7 +37,8 @@ h1,h2,h3,h4,h5 {
     
 }
 
-/*OVERWRITING BOOTSTRAP CLASS DEFAULTS*/
+/* OVERWRITING BOOTSTRAP CLASS DEFAULTS */
+
 .container-fluid {
     margin:0;
     padding:0;
@@ -56,7 +56,7 @@ body {
 }
 
 
-/*----------------- Title */
+/* Title */
 
 #title-heading {
 
@@ -70,9 +70,10 @@ body {
     margin:0;
 }
 
-/*----------------- Navigation */
+/* Navigation */
 
-/*SIDEBAR CONFIGURATION FOR LARGER RESOLUTIONS*/
+/* SIDEBAR CONFIGURATION FOR LARGER RESOLUTIONS */
+
 .sidebar {
     position: fixed;
  top: 0;
@@ -114,7 +115,8 @@ body {
     text-decoration:none
 }
 
-/*'BURGER' NAVIGATION CONFIGURATION FOR SMALLER RESOLUTIONS*/
+/* 'BURGER' NAVIGATION CONFIGURATION FOR SMALLER RESOLUTIONS */
+
 .burger-nav {
     height:100vh;
 }
@@ -136,9 +138,10 @@ background-color:#FF8811;
 }
 
 
-/*----------------- Main Body */
+/* Main Body */
 
-/*CONSISTENT STYLE ON INFORMATION SECTIONS*/
+/* CONSISTENT STYLE ON INFORMATION SECTIONS */
+
 .info-section {
     border: solid #BBDEF0;
     border-width: 2px 0 2px 0;
@@ -177,7 +180,7 @@ p {
     text-align: center;
 }
 
-/*----------------- Footer */
+/* Footer */
 
 footer {
     color:#F8FBFB;
@@ -188,9 +191,10 @@ footer {
     font-size:14px;
 }
 
-/*----------------- Media Queries */ 
+/* Media Queries */ 
 
-/*MARGINS ADDED WHEN RESOLUTION IS INCREASED*/
+/* MARGINS ADDED WHEN RESOLUTION IS INCREASED */
+
 @media screen and (min-width: 768px) {
     p {
         margin-left: 40px;
