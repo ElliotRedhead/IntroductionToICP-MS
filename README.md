@@ -1,5 +1,5 @@
 # Introduction to Inductively Coupled Plasma Mass Spectrometry
-=====
+
 View the live deployment [here](https://elliotredhead.github.io/Introduction-to-ICP-MS/)
 -----
 
@@ -105,7 +105,7 @@ The website has been opened and navigated across multiple devices and platforms,
 
 The single column text layout on larger resolutions has an inline image in the plasma-ionisation section. This is merged into the single-column format on smaller resolutions. Both images used in this website are responsive to the screen size as proven by multi-platform testing.
 
-Troubleshooting style issues was undertaken by inspecting the affected element and determining which style properties require altering to achieve the desired result.
+Troubleshooting of style issues was undertaken by inspecting the affected element and determining which style properties require altering to achieve the desired result.
 
 ## Deployment
 
@@ -127,7 +127,9 @@ The setup for the GitHub Pages deployment was as follows:
 4. In your local IDE open Git Bash.
 5. Navigate to where the cloned directory should reside, make this the current working directory.
 6. Type "git clone", and paste the clone URL.
+
 **i.e. "git clone https://github.com/ElliotRedhead/Introduction-to-ICP-MS.git"**
+
 7. Press Enter.
 8. The local clone is now created.
 
