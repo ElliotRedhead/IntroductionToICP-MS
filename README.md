@@ -31,7 +31,13 @@ user with details.
 2. As a user with some prior knowledge of this method I want to select a target section of information so that I can research more of that section in particular.
 3. As a returning user with extensive prior knowledge of this method I want to contact the author so that I can discuss the method further.
 
-<!--This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.-->
+## Wireframes
+
+The following wireframes were used in the development of this site, the large revision of including a sidebar resulted in a large design change which is recorded in the difference between the first and second wireframes.
+
+1. The [initial desktop wireframe](assets/wireframes/desktop-wireframe-first-draft.jpg)
+2. The [revised desktop wireframe](assets/wireframes/desktop-wireframe-developed.jpg)
+3. The [mobile wireframe](assets/wireframes/mobile-wireframe-developed.jpg)
 
 
 
