@@ -36,24 +36,6 @@ h1,h2,h3,h4,h5 {
     
 }
 
-/* OVERWRITING BOOTSTRAP CLASS DEFAULTS */
-
-/* .container-fluid {
-    margin:0;
-    padding:0;
-}
-
-.row {
-    margin: 0;
-    padding:0;
-    
-}
-
-body {
-    position:relative;
-}*/
-
-
 /* Title */
 
 #title-heading {
@@ -171,7 +153,6 @@ p {
 }
 
 #additional-resources-list {
-    padding-inline-start: 0px;
     list-style-type: none;
 }
 
