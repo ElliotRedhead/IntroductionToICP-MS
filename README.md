@@ -113,6 +113,8 @@ The single column text layout on larger resolutions has an inline image in the p
 
 Troubleshooting of style issues was undertaken by inspecting the affected element and determining which style properties require altering to achieve the desired result.
 
+The [W3C](https://www.w3.org/) validators for HTML and CSS were used and corrections made in accordance with the results, this included the removal of superfluous code.
+
 ## Deployment
 
 This project was developed using Visual Studio Code, and was both committed to git and pushed to GitHub using the integrated source control feature.
