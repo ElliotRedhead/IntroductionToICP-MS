@@ -6,104 +6,108 @@
     <meta charset=UTF-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="assets/css/bootstrap-social.css">
     <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
-    
+
 </head>
 
 <body data-spy="scroll" data-target=".scrollspytarget" data-offset="200" class="bg-color-main container-fluid">
     <!-- SCROLLSPY-REQUIRED CLASSES-->
     <div class="row">
-    <!-- NAVIGATION FOR SMALLER RESOLUTIONS -->
-    <nav class="navbar navbar-expand-md navbar-light bg-color-nav fixed-top d-md-none px-0">
-        <button class="navbar-toggler ml-2 mb-2" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--Each navigation option jumps to the appropriate section and closes the navigation dropdown-->
-        <div class="burger-nav navbar-collapse collapse" id="navbarCollapse">
-            <ul class="scrollspytarget navbar-nav text-uppercase nav-fill">
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#introduction-section" class="uppercase nav-link"><span>Overview</span><i
-                            class="fas fa-info pl-2" aria-hidden=true></i></a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#ionisation-section" class="uppercase nav-link"><span>Ionisation</span><i
-                            class="fas fa-fire-alt pl-2" aria-hidden=true></i></a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#analysis-section" class="uppercase nav-link"><span>Analysis</span><i
-                            class="fas fa-microscope pl-2" aria-hidden=true></i></a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#maintenance-section" class="uppercase nav-link"><span>Maintenance</span><i
-                            class="fa fa-wrench pl-2" aria-hidden=true></i></a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#contact-section" class="uppercase nav-link"><span>Contact</span><i
-                            class="fa fa-envelope pl-2" aria-hidden=true></i></a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse">
-                    <a href="#additional-resources-section" class="uppercase nav-link"><span>Resources</span><i
-                            class="fa fa-link pl-2" aria-hidden=true></i></a>
-                </li>
+        <!-- NAVIGATION FOR SMALLER RESOLUTIONS -->
+        <nav class="navbar navbar-expand-md navbar-light bg-color-nav fixed-top d-md-none px-0">
+            <button class="navbar-toggler ml-2 mb-2" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Each navigation option jumps to the appropriate section and closes the navigation dropdown-->
+            <div class="burger-nav navbar-collapse collapse" id="navbarCollapse">
+                <ul class="scrollspytarget navbar-nav text-uppercase nav-fill">
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#introduction-section" class="uppercase nav-link"><span>Overview</span><i
+                                class="fas fa-info pl-2" aria-hidden=true></i></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#ionisation-section" class="uppercase nav-link"><span>Ionisation</span><i
+                                class="fas fa-fire-alt pl-2" aria-hidden=true></i></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#analysis-section" class="uppercase nav-link"><span>Analysis</span><i
+                                class="fas fa-microscope pl-2" aria-hidden=true></i></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#maintenance-section" class="uppercase nav-link"><span>Maintenance</span><i
+                                class="fa fa-wrench pl-2" aria-hidden=true></i></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#contact-section" class="uppercase nav-link"><span>Contact</span><i
+                                class="fa fa-envelope pl-2" aria-hidden=true></i></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse">
+                        <a href="#additional-resources-section" class="uppercase nav-link"><span>Resources</span><i
+                                class="fa fa-link pl-2" aria-hidden=true></i></a>
+                    </li>
 
-            </ul>
-        </div>
-    </nav>
-    <!-- NAVIGATION FOR LARGER RESOLUTIONS -->
-    <aside class="container-fluid">
-        <div class="row">
-            <nav class="bg-color-nav sidebar shadow-sm col-md-2 d-none d-md-block">
-                <ul class="scrollspytarget nav nav-pills flex-column">
-                    <li class="text-center card shadow-sm">
-                        <a href="#introduction-section" class="uppercase px-2 py-4 nav-link"><span>Overview</span></a>
-                    </li>
-                    <li class="text-center card shadow-sm">
-                        <a href="#ionisation-section" class="uppercase px-2 py-4 nav-link"><span>Ionisation</span></a>
-                    </li>
-                    <li class="text-center card shadow-sm">
-                        <a href="#analysis-section" class="uppercase px-2 py-4 nav-link"><span>Analysis</span></a>
-                    </li>
-                    <li class="text-center card shadow-sm">
-                        <a href="#maintenance-section" class="uppercase px-2 py-4 nav-link"><span>Maintenance</span></a>
-                    </li>
-                    <li class="text-center card shadow-sm">
-                        <a href="#contact-section" class="uppercase px-2 py-4 nav-link"><span>Contact</span></a>
-                    </li>
-                    <li id="resources" class="text-center card shadow-sm uppercase"><span>Additional Resources</span>
-                        <div class="uppercase pb-4">
-                            <ul class="flex-column">
-                                <li class="text-center"><a
-                                        href="https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf"
-                                        rel="noopener" target="_blank">Practical Guide</a></li>
-                                <li class="text-center"><a
-                                        href="https://www.hitachi-hightech.com/global/products/science/tech/ana/icp/descriptions/icp-oes.html"
-                                        rel="noopener" target="_blank">ICP-OES</a></li>
-                                <li class="text-center"><a
-                                        href="https://www.thermofisher.com/uk/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/gas-chromatography-mass-spectrometry-gc-ms-information.html"
-                                        rel="noopener" target="_blank">GC-MS</a></li>
-                                <li class="text-center"><a
-                                        href="https://www.waters.com/waters/en_US/How-Does-High-Performance-Liquid-Chromatography-Work%3F/nav.htm?locale=en_us&cid=10049055"
-                                        rel="noopener" target="_blank">HPLC</a></li>
-                            </ul>
-                        </div>
                 </ul>
-            </nav> 
-        </div>
-    </aside>
-    
+            </div>
+        </nav>
+        <!-- NAVIGATION FOR LARGER RESOLUTIONS -->
+        <aside class="container-fluid">
+            <div class="row">
+                <nav class="bg-color-nav sidebar shadow-sm col-md-2 d-none d-md-block">
+                    <ul class="scrollspytarget nav nav-pills flex-column">
+                        <li class="text-center card shadow-sm">
+                            <a href="#introduction-section"
+                                class="uppercase px-2 py-4 nav-link"><span>Overview</span></a>
+                        </li>
+                        <li class="text-center card shadow-sm">
+                            <a href="#ionisation-section"
+                                class="uppercase px-2 py-4 nav-link"><span>Ionisation</span></a>
+                        </li>
+                        <li class="text-center card shadow-sm">
+                            <a href="#analysis-section" class="uppercase px-2 py-4 nav-link"><span>Analysis</span></a>
+                        </li>
+                        <li class="text-center card shadow-sm">
+                            <a href="#maintenance-section"
+                                class="uppercase px-2 py-4 nav-link"><span>Maintenance</span></a>
+                        </li>
+                        <li class="text-center card shadow-sm">
+                            <a href="#contact-section" class="uppercase px-2 py-4 nav-link"><span>Contact</span></a>
+                        </li>
+                        <li id="resources" class="text-center card shadow-sm uppercase"><span>Additional
+                                Resources</span>
+                            <div class="uppercase pb-4">
+                                <ul class="flex-column">
+                                    <li class="text-center"><a
+                                            href="https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf"
+                                            rel="noopener" target="_blank">Practical Guide</a></li>
+                                    <li class="text-center"><a
+                                            href="https://www.hitachi-hightech.com/global/products/science/tech/ana/icp/descriptions/icp-oes.html"
+                                            rel="noopener" target="_blank">ICP-OES</a></li>
+                                    <li class="text-center"><a
+                                            href="https://www.thermofisher.com/uk/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/gas-chromatography-mass-spectrometry-gc-ms-information.html"
+                                            rel="noopener" target="_blank">GC-MS</a></li>
+                                    <li class="text-center"><a
+                                            href="https://www.waters.com/waters/en_US/How-Does-High-Performance-Liquid-Chromatography-Work%3F/nav.htm?locale=en_us&cid=10049055"
+                                            rel="noopener" target="_blank">HPLC</a></li>
+                                </ul>
+                            </div>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
 
-    <!-- MAIN TITLE -->
+
+        <!-- MAIN TITLE -->
         <div class="container-fluid  bg-color-title shadow">
             <div class="row">
                 <div class="col-sm-12 col-md-10 offset-md-2">
@@ -113,245 +117,282 @@
             </div>
         </div>
 
-        
 
-    <section id="introduction-section" class="info-section container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-10 offset-md-2 my-5 py-3">
-                <h3>Overview</h3>
-                <p>Inductively Coupled Plasma Mass Spectrometry (ICP-MS) is used in sample analysis to determine which
-                    elements are present and their concentrations.</p>
 
-                <p>ICP-MS is applied in a variety of industries such as:</p>
-                <ul>
-                    <li>Environmental</li>
-                    <li>Pharmaceutical</li>
-                    <li>Geochemical</li>
-                    <li>Forensics</li>
-                </ul>
-                <p> These may be for ensuring guidelines are adhered to in terms of purity of final products, sufficient
-                    treatment of waste product, or for exploration of biological matrices for example.</p>
-                <p>The greatest trait of the instrument is the degree of sensitivity it can offer, with the ability to
-                    measure
-                    some elements at part-per-billion (ppb) level.
-                    This measurement is defined as being one part in one billion units, in relative terms that is
-                    equivalent
-                    to 1mL of water in a 1000L swimming pool or 1 second in 31.7 years.</p>
-                <p>The instrument used for this analysis subjects the sample to a multi-stage process, the sample
-                    requires:
-                    introduction to the system, ionisation, ion-separation and detection.
-                </p>
-                <p>The plasma's function is to ionise the sample and the mass spectrometer manipulates and quantifies
-                    the ions generated.
-                </p>
+        <section id="introduction-section" class="info-section container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-2 my-5 py-3">
+                    <h3>Overview</h3>
+                    <p>Inductively Coupled Plasma Mass Spectrometry (ICP-MS) is used in sample analysis to determine
+                        which
+                        elements are present and their concentrations.</p>
+
+                    <p>ICP-MS is applied in a variety of industries such as:</p>
+                    <ul>
+                        <li>Environmental</li>
+                        <li>Pharmaceutical</li>
+                        <li>Geochemical</li>
+                        <li>Forensics</li>
+                    </ul>
+                    <p> These may be for ensuring guidelines are adhered to in terms of purity of final products,
+                        sufficient
+                        treatment of waste product, or for exploration of biological matrices for example.</p>
+                    <p>The greatest trait of the instrument is the degree of sensitivity it can offer, with the ability
+                        to
+                        measure
+                        some elements at part-per-billion (ppb) level.
+                        This measurement is defined as being one part in one billion units, in relative terms that is
+                        equivalent
+                        to 1mL of water in a 1000L swimming pool or 1 second in 31.7 years.</p>
+                    <p>The instrument used for this analysis subjects the sample to a multi-stage process, the sample
+                        requires:
+                        introduction to the system, ionisation, ion-separation and detection.
+                    </p>
+                    <p>The plasma's function is to ionise the sample and the mass spectrometer manipulates and
+                        quantifies
+                        the ions generated.
+                    </p>
+                </div>
             </div>
-        </div>
-      
-    </section>
+
+        </section>
 
 
 
-    <section id="ionisation-section" class="info-section container-fluid">
-    <div class="row">
-            <div class="col-sm-12 col-md-10 offset-md-2 mt-5 pt-5">
-                <h3>Plasma Ionisation</h3>
-                <p>The method of sample introduction depends upon the state of the sample. ICP-MS is used for
-                    composition determination of solid and liquid samples, however only a minute amount of sample is
-                    sufficient
-                    for analysis. Prior to ionisation, solid samples are introduced using laser ablation; the focusing
-                    of a
-                    laser beam on the sample surface to generate fine particles for analysis whereas liquid samples
-                    undergo a
-                    nebulisation
-                    process.</p>
+        <section id="ionisation-section" class="info-section container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-2 mt-5 pt-5">
+                    <h3>Plasma Ionisation</h3>
+                    <p>The method of sample introduction depends upon the state of the sample. ICP-MS is used for
+                        composition determination of solid and liquid samples, however only a minute amount of sample is
+                        sufficient
+                        for analysis. Prior to ionisation, solid samples are introduced using laser ablation; the
+                        focusing
+                        of a
+                        laser beam on the sample surface to generate fine particles for analysis whereas liquid samples
+                        undergo a
+                        nebulisation
+                        process.</p>
                 </div>
 
-            <div class="col-sm-12 col-md-6 offset-md-2 align-self-center">
-                <p>The ionisation of an atom results in a positively charged ion (cation), this occurs when
-                    sufficient energy (ionisation energy) is applied to remove the valence (outer) electron from its
-                    orbital as
-                    shown in the following image.
-                </p>
-            </div>
-            <!-- IONISATION DIAGRAM IMAGE -->
-            <div class="col-sm-12 col-md-2">
-                <img class="img-fluid bordered rounded d-block mx-auto" src="assets/images/ionisation.jpg"
-                    alt="An ionisation diagram, showing electron ejection on energy introduction.">
-            </div>
-     
-        <div class="col-sm-12 col-md-10 offset-md-2 mb-5 mt-2 py-3">
-            <p>The plasma is generated by applying an oscillating radiofrequency to a constant flow of argon gas, the
-                argon
-                atoms experience a molecular friction as a large quantity of energy results in the ionisation of the
-                argon.
-                Atoms that are then subjected to this high energy plasma are readily ionised in typical
-                circumstances. This ionisation enables the manipulation of the charged particles for differentiation and
-                selective quantification stages.</p>
-            </div>
-        </div>
-    </section>
-    <section id="analysis-section" class="info-section container-fluid">
-<div class="row">
-            <div class="col-12 col-md-10 offset-md-2 pt-5 mt-5">
-                <h3>Analysis Stages</h3>
-                <p>The block-diagram shows an overview of the complete analysis process, including the interface and
-                    mass
-                    spectrometer sections not covered previously.</p>
-            
-        </div>
-        <!-- BLOCK DIAGRAM IMAGE -->
+                <div class="col-sm-12 col-md-6 offset-md-2 align-self-center">
+                    <p>The ionisation of an atom results in a positively charged ion (cation), this occurs when
+                        sufficient energy (ionisation energy) is applied to remove the valence (outer) electron from its
+                        orbital as
+                        shown in the following image.
+                    </p>
+                </div>
+                <!-- IONISATION DIAGRAM IMAGE -->
+                <div class="col-sm-12 col-md-2">
+                    <img class="img-fluid bordered rounded d-block mx-auto" src="assets/images/ionisation.jpg"
+                        alt="An ionisation diagram, showing electron ejection on energy introduction.">
+                </div>
 
-            <div class="col-md-10 offset-md-2">
-                <img class="img-fluid bordered mx-auto d-block rounded" src="assets/images/block-diagram-of-ICP-MS.jpg"
-                    alt="A block diagram of the ICP-MS instrument.">
+                <div class="col-sm-12 col-md-10 offset-md-2 mb-5 mt-2 py-3">
+                    <p>The plasma is generated by applying an oscillating radiofrequency to a constant flow of argon
+                        gas, the
+                        argon
+                        atoms experience a molecular friction as a large quantity of energy results in the ionisation of
+                        the
+                        argon.
+                        Atoms that are then subjected to this high energy plasma are readily ionised in typical
+                        circumstances. This ionisation enables the manipulation of the charged particles for
+                        differentiation and
+                        selective quantification stages.</p>
+                </div>
             </div>
-        
-
-
-            <div class="col-sm-12 col-md-10 offset-md-2 mb-5 mt-4">
-                <p>The interface in this instrument is composed of a "sampler cone" and "skimmer cone", these act as a
-                    selective
-                    siphon, focusing the cations that are generated at the plasma stage to the mass spectrometer. The
-                    interface
-                    enables the transition from a high temperature, atmospheric pressure (plasma/ionisation stage) to a
-                    lower
-                    temperature, high vacuum environment (mass spectrometer).</p>
-                <p>The mass spectrometer is used to determine both the identity and subsequent concentration of ions by
-                    stages of
-                    differentiation followed by quantification.</p>
-                <p> The separation of ions is typically by use of a "quadrupole", an array of 4 electromagnetic rods
-                    that can
-                    deflect the ions in a curve towards the detector by varying the strength of the electric field. The
-                    separation is based on the
-                    mass:charge ratio of the ions, the degree of deflection varies between ions by both their mass
-                    (lighter
-                    being deflected more readily) and
-                    their charge (greater ionised resulting in greater deflection). In this method the mixed stream of
-                    ions can
-                    be separated into known ions
-                    by degree of deflection and then quantified by the amount of ions in the now filtered stream.</p>
-                <p>The quantification stage occurs at the detector. As an ion impacts the detector plate an electron is
-                    transferred from the metal to the ion, this results in a transfer of electrons from a connected wire
-                    to
-                    the detector plate. The flow of electrons through the wire is measured as an electric current, with
-                    a
-                    greater current generated when more electrons flow to the metal plate (a greater number of ions
-                    impacting
-                    the detector plate). By use of calibration standards of known concentrations it can be determined
-                    what
-                    amount of ions impacting the plate (measured by current) corresponds to the concentration of ions in
-                    the
-                    original sample.
-                </p>
-            </div>
-        </div>
-        
-    </section>
-    <!-- MAINTENANCE SECTION -->
-    <section id="maintenance-section" class="info-section container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-10 offset-md-2 pt-5 mt-5">
-                <h3>Maintenance</h3>
-                <div class="mt-5">
-                <p>The ICP-MS instrument requires significant maintenance in the form of upkeep and replacement of components
-                    such as the plasma torch, interface cones
-                    and moving parts required for the uptake of samples. These components are specialist items that are sold
-                    at prices reflective of such.
-                </p>
-                <p>A constant flow of argon gas and a vacuum are required for instrument operation. The operator must be
-                    strategic in order to maximise value
-                    from the instrument, argon gas is relatively expensive and electricity is required to keep the pump,
-                    instrument and controlling computer running.
-                    It is important to consider the value of the information obtained each time the instrument is ran to
-                    ensure the instrument is being used optimally.
-                </p>
-                <p>For optimal performance, analytical-grade hydrochloric and nitric acids are required as the carrier
-                    solutions. Standard purity acids are not suitable
-                    due to the sensitivity of the instrument, with any contaminants capable of affecting the sample
-                    results. Analytical-grade reagents are expensive but
-                    a necessary requirement for operation, their use should be factored into the cost of running the
-                    instrument.
-                </p>
-                <p>If the instrument is not functioning properly and repair is outside of the skillset of the standard operator
-                    then an instrument engineer may be required, this
-                    is also true in the case of periodic servicing to ensure correct function.</p>
-            </div>
-        </div>
-        </div>
-    </section>
-    <!-- CONTACT SECTION -->
-    
-    <section id="contact-section" class="info-section container-fluid">
+        </section>
+        <section id="analysis-section" class="info-section container-fluid">
             <div class="row">
-            <div class="col-sm-12 col-md-10 offset-md-2 mt-5 pt-5">
-                <h3>Contact</h3>
-            </div>
-            <div class="col-sm-12 col-md-10 offset-md-2 mb-2">
-                <p>Do you have any comments or questions about ICP-MS? You can contact me below:</p>
-            </div>
-            <!-- CONTACT FORM -->
-            <div class="col-sm-12 col-md-8 offset-md-3 mb-5">
-                <form class="needs-validation">
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control mb-4" id="email"
-                            placeholder="Enter email address here." required>
-                    </div>
-                    <div class="form-group">
-                        <label for="textarea">Message</label>
-                        <textarea class="form-control mb-3" id="textarea" rows="7" placeholder="Your message here."
-                            required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary d-block mx-auto">Send</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <!-- ADDITIONAL RESOURCES SECTION -->
-    <section id="additional-resources-section" class="info-section container-fluid">
-        <div class="row">
-        <div class="col-sm-12 mt-2 pt-5">
-            <h3 class="mb-5">Additional Resources</h3>
-        </div>
-        <div class="col-sm-12">
-        <div class="uppercase pb-4">
-<ul id="additional-resources-list">
-    <li class="card py-5"><a href="https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf" rel="noopener" target="_blank">Practical Guide</a></li>
-<li class="card py-5"><a href="https://www.hitachi-hightech.com/global/products/science/tech/ana/icp/descriptions/icp-oes.html" rel="noopener" target="_blank">ICP-OES</a></li>
-<li class="card py-5"><a href="https://www.thermofisher.com/uk/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/gas-chromatography-mass-spectrometry-gc-ms-information.html" rel="noopener" target="_blank">GC-MS</a></li>
-<li class="card py-5"><a href="https://www.waters.com/waters/en_US/How-Does-High-Performance-Liquid-Chromatography-Work%3F/nav.htm?locale=en_us&cid=10049055" rel="noopener" target="_blank">HPLC</a></li>
-</ul>
-</div>
-        </div>
-    </div>
-        
-    </section>
-    <!-- FOOTER WITH SOCIAL SHARING -->
-    <footer class="page-footer bg-color-footer container-fluid align-items-center">
-        <div class="row">
-            <div class="col-sm-12 col-md-10 offset-md-2 py-1">
-                <span id="share" class="text-uppercase text-center">Share</span>
-                <a class="btn btn-social-icon btn-md btn-facebook" rel="noopener" target="_blank"
-                    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS">
-                    <i class="fab fa-facebook"></i></a>
-                <a class="btn btn-social-icon btn-md btn-twitter" rel="noopener" target="_blank"
-                    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS&text=An%20Intro%20to%20ICP-MS.&hashtags=Science,ICP,Analysis"><i
-                        class="fab fa-twitter"></i></a>
+                <div class="col-12 col-md-10 offset-md-2 pt-5 mt-5">
+                    <h3>Analysis Stages</h3>
+                    <p>The block-diagram shows an overview of the complete analysis process, including the interface and
+                        mass
+                        spectrometer sections not covered previously.</p>
 
-                <a class="btn btn-social-icon btn-md btn-linkedin mr-3" rel="noopener" target="_blank"
-                    href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS&title=An%20Introduction%20to%20ICP-MS"><i
-                        class="fab fa-linkedin"></i></a>
-                <span id="copyright">© Elliot Redhead </span>
+                </div>
+                <!-- BLOCK DIAGRAM IMAGE -->
+
+                <div class="col-md-10 offset-md-2">
+                    <img class="img-fluid bordered mx-auto d-block rounded"
+                        src="assets/images/block-diagram-of-ICP-MS.jpg" alt="A block diagram of the ICP-MS instrument.">
+                </div>
+
+
+
+                <div class="col-sm-12 col-md-10 offset-md-2 mb-5 mt-4">
+                    <p>The interface in this instrument is composed of a "sampler cone" and "skimmer cone", these act as
+                        a
+                        selective
+                        siphon, focusing the cations that are generated at the plasma stage to the mass spectrometer.
+                        The
+                        interface
+                        enables the transition from a high temperature, atmospheric pressure (plasma/ionisation stage)
+                        to a
+                        lower
+                        temperature, high vacuum environment (mass spectrometer).</p>
+                    <p>The mass spectrometer is used to determine both the identity and subsequent concentration of ions
+                        by
+                        stages of
+                        differentiation followed by quantification.</p>
+                    <p> The separation of ions is typically by use of a "quadrupole", an array of 4 electromagnetic rods
+                        that can
+                        deflect the ions in a curve towards the detector by varying the strength of the electric field.
+                        The
+                        separation is based on the
+                        mass:charge ratio of the ions, the degree of deflection varies between ions by both their mass
+                        (lighter
+                        being deflected more readily) and
+                        their charge (greater ionised resulting in greater deflection). In this method the mixed stream
+                        of
+                        ions can
+                        be separated into known ions
+                        by degree of deflection and then quantified by the amount of ions in the now filtered stream.
+                    </p>
+                    <p>The quantification stage occurs at the detector. As an ion impacts the detector plate an electron
+                        is
+                        transferred from the metal to the ion, this results in a transfer of electrons from a connected
+                        wire
+                        to
+                        the detector plate. The flow of electrons through the wire is measured as an electric current,
+                        with
+                        a
+                        greater current generated when more electrons flow to the metal plate (a greater number of ions
+                        impacting
+                        the detector plate). By use of calibration standards of known concentrations it can be
+                        determined
+                        what
+                        amount of ions impacting the plate (measured by current) corresponds to the concentration of
+                        ions in
+                        the
+                        original sample.
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer>
-</div>
-    
+
+        </section>
+        <!-- MAINTENANCE SECTION -->
+        <section id="maintenance-section" class="info-section container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-2 pt-5 mt-5">
+                    <h3>Maintenance</h3>
+                    <div class="mt-5">
+                        <p>The ICP-MS instrument requires significant maintenance in the form of upkeep and replacement
+                            of components
+                            such as the plasma torch, interface cones
+                            and moving parts required for the uptake of samples. These components are specialist items
+                            that are sold
+                            at prices reflective of such.
+                        </p>
+                        <p>A constant flow of argon gas and a vacuum are required for instrument operation. The operator
+                            must be
+                            strategic in order to maximise value
+                            from the instrument, argon gas is relatively expensive and electricity is required to keep
+                            the pump,
+                            instrument and controlling computer running.
+                            It is important to consider the value of the information obtained each time the instrument
+                            is ran to
+                            ensure the instrument is being used optimally.
+                        </p>
+                        <p>For optimal performance, analytical-grade hydrochloric and nitric acids are required as the
+                            carrier
+                            solutions. Standard purity acids are not suitable
+                            due to the sensitivity of the instrument, with any contaminants capable of affecting the
+                            sample
+                            results. Analytical-grade reagents are expensive but
+                            a necessary requirement for operation, their use should be factored into the cost of running
+                            the
+                            instrument.
+                        </p>
+                        <p>If the instrument is not functioning properly and repair is outside of the skillset of the
+                            standard operator
+                            then an instrument engineer may be required, this
+                            is also true in the case of periodic servicing to ensure correct function.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+
+        <section id="contact-section" class="info-section container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-2 mt-5 pt-5">
+                    <h3>Contact</h3>
+                </div>
+                <div class="col-sm-12 col-md-10 offset-md-2 mb-2">
+                    <p>Do you have any comments or questions about ICP-MS? You can contact me below:</p>
+                </div>
+                <!-- CONTACT FORM -->
+                <div class="col-sm-12 col-md-8 offset-md-3 mb-5">
+                    <form class="needs-validation">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control mb-4" id="email"
+                                placeholder="Enter email address here." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control mb-3" id="textarea" rows="7" placeholder="Your message here."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary d-block mx-auto">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- ADDITIONAL RESOURCES SECTION -->
+        <section id="additional-resources-section" class="info-section container-fluid">
+            <div class="row">
+                <div class="col-sm-12 mt-2 pt-5">
+                    <h3 class="mb-5">Additional Resources</h3>
+                </div>
+                <div class="col-sm-12">
+                    <div class="uppercase pb-4">
+                        <ul id="additional-resources-list">
+                            <li class="card py-5"><a
+                                    href="https://pdfs.semanticscholar.org/f57f/d4b1e5343eaf35d21afc599eddafeb437a5c.pdf"
+                                    rel="noopener" target="_blank">Practical Guide</a></li>
+                            <li class="card py-5"><a
+                                    href="https://www.hitachi-hightech.com/global/products/science/tech/ana/icp/descriptions/icp-oes.html"
+                                    rel="noopener" target="_blank">ICP-OES</a></li>
+                            <li class="card py-5"><a
+                                    href="https://www.thermofisher.com/uk/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/gas-chromatography-mass-spectrometry-gc-ms-information.html"
+                                    rel="noopener" target="_blank">GC-MS</a></li>
+                            <li class="card py-5"><a
+                                    href="https://www.waters.com/waters/en_US/How-Does-High-Performance-Liquid-Chromatography-Work%3F/nav.htm?locale=en_us&cid=10049055"
+                                    rel="noopener" target="_blank">HPLC</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- FOOTER WITH SOCIAL SHARING -->
+        <footer class="page-footer bg-color-footer container-fluid align-items-center">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 offset-md-2 py-1">
+                    <span id="share" class="text-uppercase text-center">Share</span>
+                    <a class="btn btn-social-icon btn-md btn-facebook" rel="noopener" target="_blank"
+                        href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS">
+                        <i class="fab fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-md btn-twitter" rel="noopener" target="_blank"
+                        href="https://twitter.com/intent/tweet?url=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS&text=An%20Intro%20to%20ICP-MS.&hashtags=Science,ICP,Analysis"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <a class="btn btn-social-icon btn-md btn-linkedin mr-3" rel="noopener" target="_blank"
+                        href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Felliotredhead.github.io%2FIntroduction-to-ICP-MS&title=An%20Introduction%20to%20ICP-MS"><i
+                            class="fab fa-linkedin"></i></a>
+                    <span id="copyright">© Elliot Redhead </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
     <!-- SCRIPTS ENABLING BOOTSTRAP -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 
 
