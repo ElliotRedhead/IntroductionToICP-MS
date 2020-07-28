@@ -1,6 +1,6 @@
 # Introduction to Inductively Coupled Plasma Mass Spectrometry
 
-View the live deployment [here](https://elliotredhead.github.io/Introduction-to-ICP-MS/)
+View the live deployment [here](https://elliotredhead.github.io/IntroductionToICP-MS/)
 -----
 
 This page explores the basic principles of inductively coupled plasma spectrometry with the objective of 
